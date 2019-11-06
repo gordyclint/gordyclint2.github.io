@@ -8,7 +8,18 @@ html {
 }
 
 h1 {
+    position: fixed;
+    z-index: 1;
+    width: 225px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 1px;
     font-size: 32px;
+    background-color: red;
+    border-style: inset;
+    border-radius: 5px;
+    left: 5px;
+    text-align: center;
 }
 
 h2 {
@@ -21,7 +32,7 @@ ul {
     top: 0;
     right: 0;
     width: 100%;
-    background-color: white;
+    background-color: #f2f2f2;
     border-style: inset;
 }
 
