@@ -8,38 +8,30 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <div id="header">
-        
-        <h1>Clint Gordy</h1>
-
-    </div>
 
     <ul>
-        <li>About</li>
-        <li>Porfolio</li>
         <li>Contact</li>
+        <li>Porfolio</li>
+        <li>About</li>
     </ul>
 
-        <div id="page_container">
+    <div id="form_container">
+        
+        <form>
+        
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="John Smith">
+        
+            <label for="email">Email</label>
+            <input type="text" name="email" placeholder="johnsmith@gmail.com">
+        
+            <label for="message">Message</label>
+            <textarea style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+        </form>
 
-            <h2>Contact</h2>
-
-                <div id="form_container">
-                    <form>
-                    
-                        <label for="name">Name</label>
-                        <input type="text" name="name" placeholder="John Smith">
-                    
-                        <label for="email">Email</label>
-                        <input type="text" name="email" placeholder="johnsmith@gmail.com">
-                    
-                        <label for="message">Message</label>
-                        <textarea style="height:200px"></textarea>
-                    
-                        <input type="submit" value="Submit">
-                    
-                    </form>
-                </div>
-        </div>
+    </div>
 </body>
 </html>

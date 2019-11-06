@@ -1,5 +1,12 @@
 
 /* General Items (Headings, XYZ) */
+html {
+    background-image: url(../images/F1_Cover.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: center;
+}
+
 h1 {
     font-size: 32px;
 }
@@ -14,13 +21,13 @@ ul {
     top: 0;
     right: 0;
     width: 100%;
-    overflow: hidden;
     background-color: white;
     border-style: inset;
 }
 
 li {
-    display: block;
+    display: flex;
+    flex-direction: row;
     color: red;
     text-align: center;
     padding: 10px;
@@ -28,13 +35,9 @@ li {
     float: right;
 }
 
-#page_container {
-    background-color: gray; 
-    margin: 0 auto;
-    width: 90%;
-}
-
 #form_container {
+    position: relative;
+    top: 100px;
     width: 50%;
     border-radius: 5px;
     background-color: #f2f2f2;
