@@ -8,23 +8,43 @@ h2 {
     font-size: 24px;
 }
 
-#page_container {
+ul {
+    list-style-type: none;
     position: fixed;
-    background-color: white;
-    bottom: 0; 
+    top: 0;
+    right: 0;
     width: 100%;
+    overflow: hidden;
+    background-color: white;
+    border-style: inset;
 }
 
-.form_container {
-    position: relative;
-    width: 100%;
+li {
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    float: right;
+}
+
+#page_container {
+    background-color: gray; 
+    margin: 0 auto;
+    width: 90%;
+}
+
+#form_container {
+    width: 50%;
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 20px;
+    margin: 0 auto;
+    padding: 30px;
 }
 
 #header {
-    position: relative;
+    position: flex;
+    flex-direction: row;
     left: 50px;
     width: 175px;
     padding: 20px;
