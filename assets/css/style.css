@@ -1,19 +1,26 @@
 
+/* Portfolio Page */
+.box {
+    direction: flex;
+    flex-wrap: wrap;
+}
+
 /* Page Background */
 html {
     background-image: url(../images/F1_Cover.jpg);
     -webkit-background-size: cover;
     background-size: cover;
     position: center;
+    width: 100%;
 }
 
 /* Name in Top Left */
 h1 {
-    position: fixed;
+    position: relative;
     z-index: 1;
     width: 225px;
     border: 2px solid black;
-    padding: 5px;
+    padding: 5px;       
     margin: 1px;
     font-size: 32px;
     background-color: red;
@@ -21,13 +28,13 @@ h1 {
     border-radius: 5px;
     left: 5px;
     text-align: center;
-    top: 12.5px;
+    top: 0px;
 }
 
 /* Index Image */
 .profile {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     float: left;
     position: relative;
     padding: 20px;
@@ -39,10 +46,10 @@ h2 {
     border-bottom: 2px solid black;
 }
 
-/* Navigation Bar */
+/* Navigation Bar */    
 ul {
     list-style-type: none;
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     left: 0;
@@ -67,12 +74,47 @@ li {
 #page_container {
     position: relative;
     top: 100px;
-    width: 50%;
+    width: 960px;
+    height: auto;
     border-radius: 5px;
     background-color: #f2f2f2;
     margin: 0 auto;
     padding: 20px;
 }
+
+/* Porfolio */
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 100px;
+    width: 960px;
+    height: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.box_1 {
+    width: 50%;
+}
+.box_2 {
+    width: 50%;
+}
+
+.box_3 {
+    width: 50%;
+}
+
+.box_4 {
+    width: 50%;
+}
+
+.box_5 {
+    width: 50%;
+}
+
 /* Contact Page */
 
 /* Text type and texy area styling */
